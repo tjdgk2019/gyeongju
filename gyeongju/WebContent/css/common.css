@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+.content_title{ margin: 0 auto; padding: 0; width: 300px; clear: both;}
+.sub_txt1 { color: #FFF; position: absolute; top: 175px; font-family: MaruBuri; font-weight: SemiBold; font-size: 34px; text-align: center;}
+.sub_txt2 { color: #FFF; position: absolute; top: 225px; left: 46%; font-family: HSBombaram; font-weight: Regular; font-size: 120px;}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css');
+
+@font-face {
+font-family: 'MaruBuri-Regular';
+src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'HSBombaram';
+src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+* { margin: 0; padding: 0; }    
+body { width: 100%; min-width:1400px; overflow-x:auto;  }
+ul { list-style: none; }
+a { text-decoration: none; font-family: Noto Sans KR;}
+.clr-fix:after { content:""; display:block; width:100%; clear:both;}
